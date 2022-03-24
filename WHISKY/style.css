@@ -1,0 +1,383 @@
+body {
+    font-family: 'Overpass', sans-serif !important;
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(immages/AdobeStock_7829210999.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+
+.FontColorlable {
+    color: rgba(251, 252, 231, 1.0);
+}
+
+.FontColorSublable {
+    color: rgba(251, 253, 202, 1.0);
+}
+
+.FontColororange {
+    color: #ff7a00;
+}
+
+.FontColorSpan {
+    color: rgba(246, 154, 56, 1.0);
+}
+
+.FontColorSpanFooter {
+    color: rgba(224, 200, 102, 1.0)
+}
+
+.FontColorGray {
+    color: rgba(101, 105, 101, 1.0);
+}
+
+.FontColorTiAtrt {
+    color: rgba(248, 133, 4, 0.8);
+}
+
+.Hover:hover {
+    color: rgba(251, 252, 231, 1.0);
+}
+
+
+
+nav a:active {
+    color: rgba(251, 252, 231, 1.0);
+}
+
+nav a:visited {
+    color: rgba(251, 252, 231, 1.0);
+}
+
+.Font-40 {
+    font-size: 6vw;
+}
+
+.Font-30 {
+    font-size: 5vw;
+}
+
+.Font-20 {
+    font-size: 1.4vw;
+}
+
+.Font-23 {
+    font-size: 2.5vw;
+}
+
+.Font-25 {
+    font-size: 2.9vw;
+}
+
+.Font-16 {
+    font-size: 1vw;
+}
+
+.Font-18 {
+    font-size: 1.3vw;
+}
+
+#article {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.title-a {
+    width: 42%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: s;
+    /*    background-color: rgba(248, 133, 4, 1.0)*/
+}
+
+.HeightImmages {
+    height: 45vh;
+}
+
+.HeightImmageBarel {
+    height: 42vh;
+}
+
+.HeightImmagesSale {
+    height: 35vh;
+}
+
+.HeightImmagesGlass {
+    height: 75vh;
+}
+
+.HeightImmagClub {
+    height: 60vh;
+}
+
+.BackGroungImg {
+    background-color: #ffffff;
+    border: 2px solid rgba(250, 247, 214, 0.5);
+
+}
+
+.Page {
+
+    height: 100vh;
+}
+
+
+#SecA {
+
+    height: 100vh;
+    background-color: rgba(250, 247, 214, 0.5);
+
+
+}
+
+#SecC {
+
+    height: 80vh;
+    background-color: rgba(250, 247, 214, 0.5);
+}
+
+
+
+
+.Foot {
+
+    height: 25vh;
+
+    background-color: #f38b0f;
+
+
+}
+
+.Slide {
+    width: 95vw !important;
+    display: flex;
+}
+
+.SliderA {
+    width: 95vw !important;
+    display: flex;
+}
+
+.BtnNextPrev {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: 1px solid #aaaaaa !important;
+    box-shadow: -3px 5px 5px #aaaaaa;
+
+}
+
+.btn:focus {
+    outline: none !important;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.0);
+}
+
+@media (max-width: 1141px) {
+    .HeightImmageBarel {
+        height: 34vh;
+    }
+
+    .Font-16 {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .Font-16 {
+        font-size: 1.6vw;
+
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    #header {
+        width: auto;
+        height: 100vh;
+        background-image: url(immages/AdobeStock_7829210999.jpg);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+
+    }
+
+    #SecC {
+        height: auto;
+        background-color: rgba(250, 247, 214, 0.5);
+    }
+
+    #article {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Font-16 {
+        font-size: 1.7vw;
+
+    }
+
+    .Font-18 {
+        font-size: 1.7vw;
+    }
+}
+
+@media (max-width: 769px) {
+
+    #header {
+        width: auto;
+        height: 100vh;
+        background-image: url(immages/AdobeStock_782.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .Font-16 {
+        font-size: 2vw !important;
+    }
+
+    .Font-18 {
+        font-size: 2.2vw !important;
+    }
+
+    .HeightImmageBarel {
+        height: 30vh;
+    }
+
+    .HeightImmagesGlass {
+        height: 50vh;
+    }
+
+    #article {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #SecA {
+        height: auto;
+        background-color: rgba(250, 247, 214, 0.5);
+    }
+
+    #SecC {
+        height: auto;
+        background-color: rgba(250, 247, 214, 0.5);
+    }
+
+    .Foot {
+        height: 26vh;
+        background-color: #f38b0f;
+    }
+
+    .Font-20 {
+        font-size: 3.4vw;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .Page {
+        width: 100vw;
+        height: auto;
+    }
+
+    .Hidden {
+        display: none !important;
+    }
+
+    .Font-20 {
+        font-size: 3.4vw;
+    }
+
+    .Font-23 {
+        font-size: 5.5vw;
+    }
+
+    .Font-40 {
+        font-size: 12vw;
+    }
+
+    .Font-25 {
+        font-size: 3.9vw;
+    }
+
+    .Font-16 {
+        font-size: 4.3vw !important;
+    }
+
+    .Font-18 {
+        font-size: 3.6vw !important;
+    }
+
+    .Font-30 {
+        font-size: 9vw;
+    }
+
+    .HeightImmageBarel {
+        height: 20vh;
+    }
+
+    #article {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #header {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(immages/AdobeStock_78.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .Foot {
+
+        height: 25vh;
+
+        background-color: #f38b0f;
+
+    }
+
+    .Font-20 {
+        font-size: 5.4vw;
+    }
+}

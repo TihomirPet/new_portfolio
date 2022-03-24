@@ -1,0 +1,504 @@
+
+
+* {
+	box-sizing: border-box;
+}
+.Appell {
+    display: none !important;
+}
+
+
+
+
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent #00174f;
+}
+
+.fp-controlArrow.fp-prev {
+	border-color: transparent #00174f transparent transparent;
+}
+.RotarionVer {
+
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    /* text-orientation: upright;  */
+
+}
+
+.header {
+	width: 2%;
+	padding: 15px;
+	position: fixed;
+	top: 45vh;
+	right: 5px;
+	z-index: 10;
+
+	box-shadow: rgba(0, 0, 0, 0.4) 3px 5px 5px;
+
+}
+
+.main-nav {}
+
+.main-nav ul {
+	margin: 0 -15px;
+	padding: 0;
+	list-style: none;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-right: -4px;
+	padding: 0 15px;
+}
+
+.main-nav a {
+	display: block;
+	font-size: 16px;
+	color: #a1a1a1;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.main-nav .active a {
+	color: #f95005;
+}
+
+
+
+.font-55 {
+    font-size: 55px;
+
+}
+.font-16 {
+    font-size: 1vw;
+}
+.font-18 {
+    font-size: 1.1vw;
+}
+
+.font-40 {
+    font-size: 2.2vw;
+}
+
+.font-60 {
+    font-size: 3.4vw;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+.font-100 {
+    font-size: 125px;
+    margin-top: 50px;
+}
+
+.FontTopColor {
+    color: #f95005;
+
+}
+
+.FontColorWood {
+    color: #1c110a;
+}
+.linkTop :hover{
+ background-color: #f95005; 
+
+
+}
+.linkTopAb :hover{
+    background-color: #ffffff;
+    }
+.OverLay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(99, 65, 28, 0.4);
+    background-color: rgba(43, 3, 65, 0.3);
+
+}
+
+.head{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/Top.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+
+}
+
+.LogoTop {
+    height: 20vh !important;
+
+}
+
+.BorderRadiusBoLeft {
+    border-bottom-left-radius: 90px;
+
+}
+
+.BackGroundWh {
+
+    background: rgba(43, 3, 65, 0.5);
+    background: rgba(99, 65, 28, 0.1);
+}
+
+.bg-light {
+    background-color: transparent !important;
+
+}
+
+.FirstButton {
+    width: 17vw;
+
+    background: rgba(99, 65, 28, 0.1);
+    border: 1px solid #f95005;
+    border-radius: 3px;
+}
+
+.LetterSp {
+    letter-spacing: 3px
+}
+
+
+
+.SecondButton {
+    width: 15vw;
+
+    background: rgba(99, 65, 28, 0.1);
+    border: 1px solid #ffffff;
+    transform: rotate(90deg);
+    margin-top: 20vh;
+    margin-right: -6vw;
+}
+
+.ThirdButton {
+    width: 15vw;
+
+    background: rgba(99, 65, 28, 0.2);
+    border: 1px solid #f95005;
+    transform: rotate(90deg);
+    margin-top: 29vh;
+    margin-right: -2vw;
+}
+
+
+
+.lastButton {
+    width: 21vw;
+
+    background: rgba(99, 65, 28, 0.1);
+
+    border: 1px solid #ffffff;
+    margin-top: 26vh;
+}
+
+.WorkshopTitle {
+    background-color: #ffffff;
+    width: 100vw !important;
+
+}
+
+.WorkshopText {
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 25vw !important;
+    height: 40vh;
+
+}
+
+.Preises {
+    background-image: url(../images/Bild_14.jpg);
+    width: 100%;
+    height: auto !important;
+    background-position: center;
+    background-size: cover;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: relative;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 3vw;
+    height: 6vh;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    border: 1px solid #aaaaaa !important;
+    box-shadow: -3px 5px 5px #aaaaaa;
+}
+
+.ShowRoom {
+
+    background-image: url(../images/Bild_28.jpg);
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ShowRoomSmall {
+
+    background-image: url(../images/Bild_23.jpg);
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ShowRoomTitle {
+    background-image: url(../images/Bild_28Back.jpg);
+    width: 100%;
+
+    background-position: bottom;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.ShowRoomTitleBack {
+
+
+    background: rgba(21, 9, 27, 0.5);
+
+    border: 1px solid #ffffff;
+
+
+}
+
+.BtnShowRoom {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: 1px solid #d8d8d8 !important;
+    box-shadow: -3px 5px 5px #d8d8d8 !important;
+    color: #f95005;
+}
+
+.BtnShowRoom:hover {
+  border: 1px solid #aaaaaa !important;
+    box-shadow: -3px 5px 5px #aaaaaa !important;
+    color: #000;
+}
+.AbautUs{
+  background-color: #15091b;
+  background-color: #323031;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.Logo{
+    height: 8vh;
+}
+@media (max-width: 1440px) {
+   
+    .LogoTop {
+        height: 10vh !important;
+    }
+    .ThirdButton {
+        width: 16vw;
+        background: rgba(99, 65, 28, 0.2);
+        border: 1px solid #f95005;
+        transform: rotate(90deg);
+        margin-top: 29vh;
+        margin-right: -2vw;
+    }
+}
+@media (max-width: 1141px) {
+    .ThirdButton {
+        width: 17vw;
+        background: rgba(99, 65, 28, 0.2);
+        border: 1px solid #f95005;
+        transform: rotate(90deg);
+        margin-top: 29vh;
+        margin-right: -2vw;
+    }
+    .main-nav li {
+        display: inline-block;
+        margin-right: 3px;
+        padding: 0 12px;
+    }
+}
+/* ================================================/Lock Rotation /==================================================================*/
+@media screen and (max-width: 996px) and (min-aspect-ratio: 13/9) {
+    #landscape {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #ffffff;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #landscape h2 {
+        color: #0d223f !important;
+        font-weight: 200;
+    }
+
+    .Test {
+        display: none;
+    }
+
+    .NavSide {
+        display: none;
+    }
+
+    #fullpage {
+        display: none;
+    }
+
+    .Appell {
+        display: block !important;
+    }
+}
+@media (max-width: 769px) {
+    .head {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../images/TopMd.jpg);
+        background-size: cover;
+        background-position: bottom;
+    }
+    .font-18 {
+        font-size: 1.6vw;
+    }
+    .font-16 {
+        font-size: 1.5vw;
+    }
+    .ThirdButton {
+    width: 17vw;
+    background: rgba(99, 65, 28, 0.2);
+    border: 1px solid #f95005;
+    transform: rotate(90deg);
+    margin-top: 29vh;
+    margin-right: -2vw;
+}
+.SecondButton {
+    width: 17vw;
+    background: rgba(99, 65, 28, 0.1);
+    border: 1px solid #ffffff;
+    transform: rotate(90deg);
+    margin-top: 20vh;
+    margin-right: -6vw;
+}
+}
+
+@media (max-width: 767px) {
+    .LogoTop {
+        height: 22vh !important;
+    }
+    .font-16{
+        font-size: 3.5vw;
+    }
+ 
+.font-18 {
+    font-size: 3.5vw;
+}
+    .font-60 {
+        font-size: 11vw;
+    }
+    .font-40 {
+        font-size: 4.3vw;
+    }
+    .FirstButton {
+        width: 60vw;
+        background: rgba(23, 11, 29, 0.8);
+        border: 1px solid #f95005;
+        border-radius: 3px;
+    }
+    .SecondButton {
+        width: 60vw;
+        background: rgba(23, 11, 29, 0.8);
+        border: 1px solid #ffffff;
+        transform: rotate(0deg);
+        margin-top: 2vh;
+        margin-right: -6vw;
+    }
+    
+    .ThirdButton {
+        width: 60vw;
+        background: rgba(23, 11, 29, 0.8);
+        border: 1px solid #f95005;
+        transform: rotate(0deg);
+        margin-top: 2vh;
+        margin-right: -2vw;
+    }
+    .lastButton {
+        width: 60vw;
+    
+        background: rgba(23, 11, 29, 0.8);
+    
+        border: 1px solid #ffffff;
+        margin-top: 2vh;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 12vw;
+        height: 6vh;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        border: 1px solid #aaaaaa !important;
+        box-shadow: -3px 5px 5px #aaaaaa;
+    }
+    .fp-tableCell {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 100% !important;
+    }
+    .main-nav a {
+        display: block;
+        font-size: 21px;
+        color: #a1a1a1;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
