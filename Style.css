@@ -69,13 +69,29 @@ body {
   background-color: #04000e;
     /* opacity: 0.56; */
 }
-.NameWrapper{
- 
-  /* background-color: #09011f; */
+.Profile{
+  position: relative;
+ background-color: #060014;
 
-
-  
+   /* background-image: url(images/image_part.png); */
 }
+.image_large{
+
+
+   background-image: url(images/image_part.png);
+  background-position: center;
+    background-size: cover;
+   height: 10vh;
+
+
+}
+.image_small{
+
+ opacity: 0.38;
+} 
+ /* .profile_inner{
+ background-color: #060014da;
+} */
 
 .Contact {
   /* background-image: url(images/paper.jpg); */
